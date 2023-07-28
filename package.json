@@ -1,0 +1,22 @@
+{
+  "name": "final_project",
+  "version": "1.0.0",
+  "description": "",
+  "source": "index.html",
+  "scripts": {
+    "build-css": "tailwindcss -i ./src/style.css -o ./css/main.css ",
+    "watch": "tailwindcss -i ./src/style.css -o ./css/main.css --watch ",
+    "build": "parcel",
+    "start": "parcel build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.9.3",
+    "postcss": "^8.4.27",
+    "tailwindcss": "^3.3.3"
+  },
+  "dependencies": {
+    "tw-elements": "^1.0.0-beta2"
+  }
+}
